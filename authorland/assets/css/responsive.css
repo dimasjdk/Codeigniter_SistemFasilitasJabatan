@@ -1,0 +1,830 @@
+/*=============================================*/
+/************** 2.0 - iPad/Tab Css ************/
+/*===========================================*/
+@media (min-width: 577px){
+
+/*=============================================*/
+/************** 2.0 - Setup Css ************/
+/*===========================================*/
+.hide-on-sm{
+  display: block;
+}
+/*=============================================*/
+/********** 10.0 - Pro Css ************/
+/*===========================================*/
+.mobile-screenshot {
+    right: -25px;
+}
+.pc-screenshot::before {
+    content: "";
+}
+.image-text-pt .text-holder {
+    padding-top: 0px;
+}
+.pc-screenshot img{
+  border-radius: 5px 5px 0 0;
+}
+/*=============================================*/
+/********** 10.0 - Testimonial Css ************/
+/*===========================================*/
+.testimonial-wrapper {
+    padding-top: 45px;
+}
+.copyright-text {
+    text-align: left;
+}
+.footer-nav ul li{
+  float: right;
+}
+.footer-nav ul li:before{
+  left: 0;
+  top: 5px;
+}
+
+
+
+
+}
+
+/*=============================================*/
+/*=============================================*/
+/********** 3.0 - Large Screen Css ************/
+/*===========================================*/
+/*===========================================*/
+@media (min-width: 770px){
+body{
+  font-size: 15px;
+  line-height: 1.7em;
+}
+h1,h2,h3,h4,h5,h6{
+    line-height:1.33em;
+    font-weight:600;
+    margin-bottom: 0px;
+}
+h1{
+    font-size:2.93em;
+}
+h2{
+    font-size:2.3em;
+}
+h3{
+    font-size:1.87em;
+}
+h4{
+    font-size:1.6em;
+}
+h5{
+    font-size:1.33em;
+}
+h6{
+    font-size:.933em;
+}
+p{
+  font-size:1em;
+}
+/*=============================================*/
+/************** 2.0 - Setup Css ************/
+/*===========================================*/
+.vertical-align-pt{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}.hero-content {
+    position: relative;
+    height: 100vh;
+    color: #ffffff;
+}
+.hero-pt{
+  padding-top:0;
+}
+
+.btn-primary-pt,
+.btn-secondary-pt{
+  padding: 9px 30px;
+}
+.btn-primary-pt:hover{
+  background: #cc66ff;
+  color: #ffffff;
+}
+.btn-secondary-pt:hover{
+  background: #8982f7;
+  color: #ffffff;
+}
+.title-pt h6{
+  padding-bottom: 17px;
+}
+.title-pt{
+  padding-bottom: 42px;
+}
+.page-header-pt{
+  padding-top: 211px;
+}
+.page-title-pt{
+  padding-bottom: 133px;
+}
+.align-left-pt p,
+.align-left-pt h1{
+  text-align: left!important;
+}
+.post-meta.mob-center{
+  float: right;
+}
+.blog-slider-cat.mob-center{
+  float: left;
+}
+.welcome-text h1{
+  padding-bottom: 25px;
+}
+.welcome-text p{
+  padding-bottom: 38px;
+}
+/*=============================================*/
+/************** 4.0 - Navbar Css ************/
+/*===========================================*/
+header {
+  padding: 0 44px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  margin-left: 25px;
+}
+
+.nav-btn{
+  margin-left: 25px;
+}
+.fixed-it .navbar-nav .nav-link,
+.fixed-it .navbar-nav .nav-link:focus, 
+.fixed-it .navbar-nav .nav-link:hover {
+  color: #20292f;
+}
+.page-header-pt li a::after,
+footer a::after,
+.fixed-it .nav-item a::after,
+.nav-item a::after {
+  width: 0%;
+  height: 2px;
+  display: block;
+  content: " ";
+  position: absolute;
+  left: 0%;
+  transition: left 0.2s cubic-bezier(0.215, 0.61, 0.355, 1), width 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.nav-item a::after {
+  bottom: 8px;
+}
+
+.page-header-pt li a::after{
+  bottom: 0;
+}
+.page-header-pt li a:hover::after,
+footer a:hover::after,
+.nav-item a:hover::after,
+.nav-item a.active::after {
+  width: 100%; 
+  background: #fff;
+}
+.dropdown-menu .nav-item a:after,
+.dropdown-menu .nav-item a:hover::after{
+  height: 0px;
+}
+.fixed-it .nav-item a::after,
+.fixed-it .nav-item a.active::after{
+  background: rgba(0,0,0,.7);
+}
+
+.navbar .navbar-nav >li:hover .dropdown-menu{
+  display: block;
+}
+ul.dropdown-menu {
+}
+.dropdown-menu{
+  margin-top: 0px;
+  padding: 0;
+  border: 0px;
+  box-shadow: 0 10px 40px rgba(0,0,0,.20);
+  border-radius: 5px;
+}
+.dropdown-item:focus, .dropdown-item:hover { 
+    background-color: transparent;
+}
+.dropdown-menu .nav-item{
+  border-bottom: 1px solid rgba(0,0,0,.10);
+}
+.dropdown-menu .nav-item:last-child{
+  border-bottom: 0px solid rgba(0,0,0,0);
+}
+.dropdown-menu .nav-item:hover{
+  background: #81a1f8!important;
+  color: #ffffff;
+}
+.dropdown-menu .nav-item:hover:first-child{
+  border-radius:5px 5px 0 0;
+}
+.dropdown-menu .nav-item:hover:last-child{
+  border-radius: 0 0 5px 5px;
+}
+.dropdown-menu:hover{
+  border-radius: 5px;
+}
+.dropdown-item.active, .dropdown-item:active {
+  color: #16181b;
+  text-decoration: none;
+  background-color: #ffffff;
+}
+.dropdown-item{
+  text-align: left;
+  border-bottom: 0px solid #cccccc;
+  padding: 8px 20px 8px 20px;
+  position: relative;
+  background: transparent;
+  min-width: 200px;
+  font-size: 14px;
+  transition: padding .5s ease;
+}
+.dropdown-item:hover{
+  padding: 8px 20px 8px 35px;
+  color: #ffffff;
+}
+.dropdown-item:before{
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  content: "";
+  width: 0px;
+  height: 2px;
+  background: rgba(255,255,255,.7);
+  transition: all .6s ease;
+}
+.dropdown-item:hover::before{
+  width: 10px;
+}
+/*=============================================*/
+/************** 4.0 - Slider Css ************/
+/*===========================================*/
+.welcome-text,.welcome-text p{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.regular .welcome-text p{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.hero-card{
+  padding: 52px 25px 68px;
+  margin: 0px;
+}
+.hero-card h3{
+  padding-bottom: 24px;
+}
+.hero-card p{
+  padding-bottom: 43px;
+}
+.welcome-text {
+    padding-top: 0px;
+    margin-bottom: 0px;
+}
+.featured-product a{
+  font-size: 1.33em;
+}
+.hero-content {
+    position: relative;
+    height: 100vh;
+    color: #ffffff;
+}
+.hero-pt{
+  padding-top:0;
+}
+.hero-pt .pt-button.light.active {
+    margin: 0;
+}
+.pt-button.light {
+    padding: 13px 25px;
+}
+/*=============================================*/
+/************** 5.0 - Search Css ************/
+/*===========================================*/
+.search.regular{
+  padding-bottom: 100px;
+}
+.search-wrapper{
+  padding: 50px 200px;
+  margin-top: -80px;
+}
+.search-wrapper.regular{
+  margin-top: 100px;
+}
+.search-wrapper input[type=text]{
+  text-indent: 45px;
+}
+.catselect-pt{
+	display: block;
+  right: 105px;
+}
+.btn-search-pt{
+  padding: 0 40px;
+}
+
+/*=============================================*/
+/************** 6.0 - Featured Css ************/
+/*===========================================*/
+.featured{
+	padding: 97px 0px 100px;
+  position: relative;
+}
+.featured:before{
+  position: absolute;
+  content: "";
+  left: 0px;
+  bottom: 60px;
+}
+.btn-wrapper{
+  padding-top: 15px;
+}
+.featured-wrapper{
+  padding-top: 7px;
+}
+
+.features-text-content {
+    padding-top: 0px;
+}
+/*=============================================*/
+/************** 7.0 - Number Css ************/
+/*===========================================*/
+.number{
+  padding: 100px 0px 70px;
+}
+.number{
+  position: relative;
+}
+.number:before{
+  position: absolute;
+  content: "";
+  right: -250px;
+  bottom: 45px;
+  overflow-x: hidden;
+}
+.number-texts {
+    padding-bottom: 0px;
+}
+.num-title {
+    padding-top: 0px;
+}
+.number-card{
+  padding: 45px 30px;
+}
+/*=============================================*/
+/************** 8.0 - Release Css ************/
+/*===========================================*/
+.release{
+  padding: 97px 0 100px;
+  position: relative;
+}
+.release:before{
+  position: absolute;
+  content: "";
+  left: 0px;
+  bottom: 100px;
+}
+
+/*=============================================*/
+/************** 9.0 - Features Css ************/
+/*===========================================*/
+.features{
+  background: #f7f9fb;
+  padding: 100px 0px 70px;
+}
+.freatures-relative .vertical-align-pt{
+  left: 0;
+  margin:0 15px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+/*=============================================*/
+/********** 10.0 - Testimonial Css ************/
+/*===========================================*/
+.testimonial{
+  padding: 95px 0px 100px;
+  position: relative;
+}
+.testimonial:before{
+  position: absolute;
+  content: "";
+  left: 0px;
+  bottom: 0px;
+}
+.testimonial-wrapper {
+    margin-top: 6px;
+    padding-top: 0px;
+}
+.testimonial-image img {
+    padding: 85px 0px 30px 60px;
+}
+.testimonial-wrapper{
+  position: relative;
+  padding-bottom: 0px;
+}
+
+.testimonial-items{
+  margin-right: 160px;
+  margin-left: 30px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.testimonial-item{
+  width: auto;
+  margin: 60px 0px 60px 45px;
+  padding: 60px; 
+}
+.testimonial-items:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 108%;
+  height: 250px;
+  background: #ffffff;
+  box-shadow: 0px 5px 27.65px 7.35px rgba(0, 0, 0, 0.09);
+  border-radius: 30px;
+  z-index: 99;
+}
+.testimonial-image img{
+  padding: 80px 0px 30px 15px;
+}
+.cat-nav{
+  margin: 8px 0 45px 50%;
+  transform: translateX(-50%);
+  padding: 15px 30px;
+  border-radius: 100px;
+}
+.cat-nav li{
+  margin: 0 5px;
+}
+.slick-next {
+  right: 35px;
+  width: 45px;
+  height: 45px;
+  top: 50%;
+  bottom: unset;
+  left: unset;
+  transform: translateY(-50%);
+
+}
+/*=============================================*/
+/********** 11.0 - More Features Css ***********/
+/*===========================================*/
+.more-features{
+  background: #f7f9fb;
+  padding: 100px 0px 58px;
+}
+
+
+/*=============================================*/
+/********** 12.0 - Category Css ************/
+/*===========================================*/
+.product-cat-nav{
+  padding-top: 94px;
+}
+.product-cat-nav ul li a{
+  padding: 0 10px;
+}
+.product-cat-nav ul li a:hover span,
+.product-cat-nav ul li a span{
+  font-size: 13px;
+}
+
+/*=============================================*/
+/********** 13.0 - Product Hero Css ************/
+/*===========================================*/
+.product-hero .page-title-pt h2 {
+    padding-bottom: 13px;
+}
+.product-hero{
+  padding-top: 200px;
+}
+.pc-screenshot{
+  position: relative;
+  max-width: 900px;
+  box-shadow: 0px 5px 36.34px 9.66px rgba(0, 0, 0, 0.05);
+}
+.pc-screenshot img{
+  box-shadow: unset;
+}
+.pc-screenshot::before {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    content: url(../img/browser.png);
+}
+.pc-image{
+  margin-top: 32px;
+  width: 100%;
+}
+.mobile-screenshot{
+  position: absolute;
+  right: -120px;
+  bottom: 0;
+}
+.mob-image{
+  position: relative;
+}
+.mob-image:before{
+  position: absolute;
+  bottom: -7px;
+  right: -32px;
+  content: url(../img/mob-frame.png);
+}
+
+.single-product-btns button{
+  margin: 0 12px;
+}
+.product-hero .pt-button{
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+.single-product-btns {
+    margin-bottom: 60px;
+}
+.info-item{
+  display: inline-block;
+  margin: 0 17px;
+}
+.theme-info{
+  padding: 38px 0px;
+}
+.info-title{
+  float: unset;
+  margin-right: unset;
+}
+
+.pc-screenshot img{
+  border-radius: 0;
+}
+/*=============================================*/
+/******** 14.0 - Theme Description Css ********/
+/*===========================================*/
+.image-text-pt, .text-image-pt{
+  padding: 100px 0;
+}
+.theme-description .vertical-align-pt{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.image-text-pt .text-holder{
+  padding-top: 0px;
+}
+.text-image-pt .text-holder{
+  padding-bottom: 0px;
+}
+.image-text-pt .image-holder{
+  padding: 45px 0px 45px 70px;
+}
+.text-image-pt .image-holder{
+  padding: 45px 70px 45px 0px;
+}
+/*=============================================*/
+/********** 15.0 - Call to Action Css ************/
+/*===========================================*/
+.call-to-action{
+  padding: 91px 0 100px;
+}
+.call-to-action h2{
+  padding:0 100px;
+}
+
+/*=============================================*/
+/********** 16.0 - Related Theme Css ************/
+/*===========================================*/
+.related-theme{
+  padding: 91px 0px 70px;
+}
+.related-title{
+  padding-bottom: 47px;
+}
+
+/*===========================================*/
+/************* 17.0 - Pricing Css ************/
+/*=========================================*/
+.pricing{
+  padding-top: 100px;
+  padding-bottom: 70px;
+}
+.price span{
+  font-size: 24px;
+  top: -12px;
+  padding-right: 5px;
+}
+.price{
+  padding-bottom: 50px;
+}
+.faq-item{
+  padding-bottom: 31px;
+}
+/*=============================================*/
+/********** 18.0 - FAQ Css ************/
+/*===========================================*/
+.faq-pt{
+  padding: 94px 0 60px;
+}
+.faq-ques{
+  padding-bottom: 20px;
+}
+/*=============================================*/
+/************** 19.0 - Conatct Css ***************/
+/*===========================================*/
+.contact-pt{
+  padding: 94px 0 100px;
+}
+.contact-pt .pt-button {
+    padding: 15px 20px;
+}
+.contact-wrapper:before{
+  content: url(../img/contact_vector1.png);
+  position: absolute;
+  right: -170px;
+  top: 0px;
+  opacity: .7;
+}
+/*=============================================*/
+/********** 20.0 - Support Css ************/
+/*===========================================*/
+.support-pt{
+  padding: 96px 0 70px;
+}
+.support-item{
+  padding: 45px 15px;
+}
+.support-item h4{
+  padding-top: 40px;
+  padding-bottom: 15px;
+}
+.support-item p{
+  padding-bottom: 40px;
+}
+.support-items{
+  position: relative;
+}
+.support-items:before{
+  content: url(../img/contact_vector2.png);
+  position: absolute;
+  left: -230px;
+  bottom: -60px;
+  opacity: .7;
+}
+/*=============================================*/
+/********** 21.0 - About Css ************/
+/*===========================================*/
+.about-information{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.funfacts{
+  padding-top: 98px;
+  padding-bottom: 53px;
+}
+.about-video{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.title-inside,
+.inner-wrapper h4{
+  padding-bottom: 33px;
+}
+.responsive-space{
+  padding-bottom: 0px;
+}
+
+/*=============================================*/
+/********** 22.0 - Blog Css ************/
+/*===========================================*/
+.post-content-details p{
+  padding-bottom: 25px;
+}
+.single-post-pt{
+  padding-top: 100px;
+}
+p.comment-form-author ,
+p.comment-form-email {
+    width: 48%;
+}
+p.comment-form-author{
+    margin-right: 25px;
+}
+.featured-image img {
+    margin-bottom: 53px;
+}
+.single-tags{
+  margin-bottom: 0px;
+}
+.comments-pt{
+  padding-top: 80px;
+}
+.comments-pt h3{
+  padding-bottom: 35px;
+}
+.comment-form-comment textarea  {
+  margin-right: 25px;
+}
+.post-content-pt{
+  padding-bottom: 0px;
+}
+.comment-form-email label,
+.comment-form-author label{
+  top:12px;
+}
+.nav-links{
+  padding-top: 28px;
+  padding-bottom: 0px;
+}
+.header-title-pt{
+  padding: 39px 30px 122px 30px;
+}
+/*=============================================*/
+/********** 23.0 - Checkout Css ************/
+/*===========================================*/
+.checkout-content{
+  padding-top: 93px;
+}
+.billing-type-pt{
+  width: 100%;
+  display: block;
+  height: 100%;
+  border-radius: 5px;
+  padding: 25px 30px 30px 30px;
+  border: 1px solid #f2f2f2;
+  margin-bottom: 0px;
+}
+.inside-title {
+    padding-bottom: 30px;
+}
+.billing-pt {
+    padding-bottom: 54px;
+}
+.payment-submission {
+    padding-top: 22px;
+}
+
+.checkbox input[type=checkbox]{
+    top: 0px;
+}
+.checkbox label {
+    padding-left: 05px;
+}
+.payment-submission{
+  padding-bottom: 0px;
+}
+/*=============================================*/
+/********** 12.0 - Footer Pack Css ************/
+/*===========================================*/
+footer{
+  padding: 100px 0 0;
+}
+.social-item{
+  margin: 0 17px;
+  display: inline-block;
+}
+.proof ul li img {
+    max-height: 60px;
+}
+.social {
+    padding-bottom: 45px;
+}
+.footer-subscribe{
+  padding: 60px 100px;
+  top: 90px;
+}
+.subscribe-text {
+    padding-bottom: 0px;
+}
+.widget-title {
+    padding-bottom: 35px;
+}
+
+.widget-area:before{
+  content: url(../img/footer1.png);
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 100%;
+  overflow: hidden;
+}
+.widget-area:after{
+  content: url(../img/footer2.png);
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 100%;
+  overflow: hidden;
+}
+.widget-area{
+  padding: 184px 0 59px;
+}
+.footer-nav ul li:before{
+  top: 7px;
+}
+}
